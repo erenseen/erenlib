@@ -1,0 +1,61 @@
+body{
+    background: linear-gradient(320deg, #c82476, #b2a226);
+}
+
+.color-whitesmoke{
+    color: whitesmoke
+}
+
+#kadi{
+    background-color: whitesmoke;
+    border:none;
+    color: black;
+    width: 183px;
+    margin-top: 150px;
+    margin-left:  500px ;
+
+}
+
+#Sifre{
+    background-color: whitesmoke;
+    border:none;
+    color: black;
+    width: 183px;
+    margin-left:  500px ;
+    margin-top: 2px;
+    
+}
+
+#ep{
+    background-color: whitesmoke;
+    border:none;
+    color: black;
+    width: 183px;
+    margin-left:  500px ;
+    margin-top: 2px;
+}
+
+.onay{
+    color: aliceblue;
+    margin-left:  500px ;
+}
+
+.finish{
+    margin-left:  500px ;
+}
+
+#kadi:focus{
+    outline:none
+}
+
+#Sifre:focus{
+    outline:none
+}
+
+#ep:focus{
+    outline:none
+}
+
+input::placeholder{
+    color: burlywood;
+}

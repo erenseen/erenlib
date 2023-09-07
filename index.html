@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Eren'in Blogu</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <h1 class="color-whitesmoke">Bloğumu görmek için kayıt olabilirsiniz.</h1>
+
+        
+            <form action="kayit.php" method="post">
+
+            <div>       
+                <input id="kadi" required placeholder="Kullanıcı Adı" autofocus type="text" name="kadi"><br>
+                <input id="Sifre" name="Şifre" required placeholder="Şifre" type="password"><br>
+                <input id="ep"  required placeholder="E-Posta" type="email" name="ep"><br>
+            </div>
+            <div class="onay">    
+                <label for="onay"><input name="Onay" required id="onay" type="checkbox">Okudum Kabul Ediyorum </label><br>
+                <label><input name="Yaş" required type="checkbox" checked>18 Yaşından Büyüğüm</label> <br>
+                <label><input required type="radio" name="cins" value="Erkek">Erkek</label>
+                <label><input required type="radio" name="cins" value="Kadın">Kadın</label><br>
+            </div>
+            <div class="finish">
+                <input type="submit" value="Gönder">
+                <input type="reset" value="Sıfırla"><br>
+            </div>
+            </form>
+       
+
+        <p>
+            <h2 class="color-whitesmoke">Bu Benim Instagramım</h2>
+            <h3><a href="https://www.instagram.com/ereenssenn" title="Eren Şen" target="_blank">Görmek İçin Tıklayın</a></h3>
+        </p>
+        <p>
+            <h2 class="color-whitesmoke">Bu İse Benim Resmim</h2>
+            <h3><a href="img/241186693_174794027992125_4189109448438595383_n.jpg" download>İndirmek İçin Tıkla</a></h3>
+            <img src="img/241186693_174794027992125_4189109448438595383_n.jpg" alt="Erenin Resmi Burada" width="400" height="400" title="Erenmisin be ;)">
+         </p>
+         <p>
+            <h2 class="color-whitesmoke">Bu İse Benim En Sevdiğim Şarkı</h2>
+            <br><br>
+            <audio controls muted>
+            <source src="audio/Enerci.m4a" type="audio/mpeg">
+        </audio>
+        
+
+        
+        <br><br>
+        <h2 class="color-whitesmoke">Bu İse Benim İlk Videom</h2>
+        <video controls muted width="370" poster="img/yticon.png">
+            <source src="video/İlkVideo.mp4" type="video/mp4">
+        </video>
+
+        <h2 class="color-whitesmoke">Yakında Blogum Buradada Olacak</h2>
+        <iframe src="https://www.blogger.com/about/?hl=tr" width="500" height="500"></iframe>
+        </p>
+
+    </body>
+
+</html>
